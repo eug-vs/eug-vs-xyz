@@ -1,4 +1,5 @@
 RSYNC_DESTINATION=root@eug-vs.xyz:/var/www/website
+BROWSER=brave
 
 MARKDOWN=gfm+emoji
 STYLESHEET=/style.css
@@ -18,7 +19,10 @@ all: $(HTML)
 
 %.html: %.md
 	@echo $@
-	@cat $< | sed "$(LINK_SEDSTRING) $(EMOJI_SEDSTRING)" | pandoc $(PANDOC_ARGS) > $@
+	@sed "$(LINK_SEDSTRING) $(EMOJI_SEDSTRING)" $< | pandoc $(PANDOC_ARGS) > $@
+
+open: $(HTML)
+	$(BROWSER) index.html
 
 deploy: $(HTML)
 	rsync -zarv --exclude=".git" --exclude="*.md" . $(RSYNC_DESTINATION)
