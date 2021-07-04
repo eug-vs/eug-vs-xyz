@@ -62,6 +62,7 @@ code {
   margin: 0;
   padding: 4px;
   background: black;
+  border-radius: 4px;
 }
 pre {
   margin: 1em 0;
