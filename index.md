@@ -13,7 +13,7 @@ No bullshit, ads, trackers or client-side JavaScript here.
  - [TaskWarrior is all you need to be productive! :taskwarrior:](taskwarrior.md)
 
 # Contacts :mailbox:
- - Contact me via email :email: [eugene@eug-vs.xyz](mailto:eugene@eug-vs.xyz)
+ - Contact me via email :email: eugene@eug-vs.xyz
  - Message me on Telegram :telegram: https://t.me/eug_vs
  - Star my projects on GitHub :github: https://github.com/eug-vs
  - Follow me on Instagram :instagram: https://instagram.com/eug.vs
