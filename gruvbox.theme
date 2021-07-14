@@ -1,5 +1,5 @@
 {
-    "text-color": "#cfcfc2",
+    "text-color": "#ffffff",
     "background-color": "#121212",
     "line-number-color": "#7a7c7d",
     "line-number-background-color": "#232629",
@@ -26,7 +26,7 @@
             "underline": false
         },
         "SpecialChar": {
-            "text-color": "#3daee9",
+            "text-color": "#b16286",
             "background-color": null,
             "bold": false,
             "italic": false,
@@ -40,14 +40,14 @@
             "underline": false
         },
         "Constant": {
-            "text-color": "#27aeae",
+            "text-color": "#fabd2f",
             "background-color": null,
             "bold": true,
             "italic": false,
             "underline": false
         },
         "CommentVar": {
-            "text-color": "#7f8c8d",
+            "text-color": "#7a7c7d",
             "background-color": null,
             "bold": false,
             "italic": false,
@@ -61,7 +61,7 @@
             "underline": false
         },
         "Comment": {
-            "text-color": "#7a7c7d",
+            "text-color": "#928374",
             "background-color": null,
             "bold": false,
             "italic": false,
@@ -75,21 +75,21 @@
             "underline": false
         },
         "Float": {
-            "text-color": "#f67400",
+            "text-color": "#d79921",
             "background-color": null,
             "bold": false,
             "italic": false,
             "underline": false
         },
         "Operator": {
-            "text-color": "#cfcfc2",
+            "text-color": "#ffffff",
             "background-color": null,
             "bold": false,
             "italic": false,
             "underline": false
         },
         "Import": {
-            "text-color": "#27ae60",
+            "text-color": "#689d6a",
             "background-color": null,
             "bold": false,
             "italic": false,
@@ -110,7 +110,7 @@
             "underline": false
         },
         "Function": {
-            "text-color": "#8e44ad",
+            "text-color": "#d79921",
             "background-color": null,
             "bold": false,
             "italic": false,
@@ -166,7 +166,7 @@
             "underline": false
         },
         "Extension": {
-            "text-color": "#0099ff",
+            "text-color": "#c45b00",
             "background-color": null,
             "bold": true,
             "italic": false,
@@ -194,14 +194,14 @@
             "underline": false
         },
         "DataType": {
-            "text-color": "#2980b9",
+            "text-color": "#d3869b",
             "background-color": null,
             "bold": false,
             "italic": false,
             "underline": false
         },
         "Char": {
-            "text-color": "#3daee9",
+            "text-color": "#b16286",
             "background-color": null,
             "bold": false,
             "italic": false,
@@ -215,7 +215,7 @@
             "underline": true
         },
         "String": {
-            "text-color": "#f44f4f",
+            "text-color": "#fabd2f",
             "background-color": null,
             "bold": false,
             "italic": false,
