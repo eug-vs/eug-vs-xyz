@@ -61,20 +61,22 @@ code {
   font-size: 85%;
   margin: 0;
   padding: 4px;
-  background: black;
+  background: #121212;
   border-radius: 4px;
 }
 pre {
   margin: 1em 0;
   overflow: auto;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  padding: 8px 4px;
 }
 pre code {
-  padding: 0;
   overflow: visible;
 }
 .sourceCode {
- background-color: transparent;
- overflow: visible;
+  background-color: transparent;
+  overflow: visible;
+  border-radius: 4px;
 }
 hr {
   background-color: #1a1a1a;
