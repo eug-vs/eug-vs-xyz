@@ -21,6 +21,14 @@ all: $(HTML)
 	@echo $@
 	@sed "$(LINK_SEDSTRING) $(EMOJI_SEDSTRING)" $< | pandoc $(PANDOC_ARGS) > $@
 
+index.html: index.md blog/preview.md
+	@echo $@
+	@sed "/Recent blog posts/r blog/preview.md" $< | sed "$(LINK_SEDSTRING) $(EMOJI_SEDSTRING)" | pandoc $(PANDOC_ARGS) > $@
+
+blog/preview.md: blog/index.md
+	@echo $@
+	@sed -n "s/^-/ -/; /^ -/p" $< | head -n 4 > $@
+
 open: $(HTML)
 	$(BROWSER) index.html
 
@@ -28,5 +36,5 @@ deploy: $(HTML)
 	rsync -zarv --exclude=".git" --exclude="*.md" . $(RSYNC_DESTINATION)
 
 clean:
-	rm -f $(HTML)
+	rm -f $(HTML) blog/preview.md
 

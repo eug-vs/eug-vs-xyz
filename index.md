@@ -9,6 +9,9 @@ This website runs on my local *Raspberry Pi* and features secure **HTTPS** conne
 
 No bullshit, ads, trackers or client-side JavaScript here.
 
+# Recent blog posts
+ - [See all...](./blog/index.md)
+
 # Articles :page_with_curl:
  - [TaskWarrior is all you need to be productive! :taskwarrior:](taskwarrior.md)
 
