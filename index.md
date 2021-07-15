@@ -9,7 +9,7 @@ This website runs on my local *Raspberry Pi* and features secure **HTTPS** conne
 
 No bullshit, ads, trackers or client-side JavaScript here.
 
-# Recent blog posts
+# Recent blog posts :newspaper:
  - [See all...](./blog/index.md)
 
 # Articles :page_with_curl:
