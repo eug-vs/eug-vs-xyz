@@ -67,7 +67,6 @@ code {
 pre {
   margin: 1em 0;
   overflow: auto;
-  border: 1px solid rgba(255, 255, 255, 0.12);
   padding: 16px 8px;
 }
 pre code {
@@ -77,6 +76,9 @@ pre code {
   background-color: transparent;
   overflow: visible;
   border-radius: 4px;
+}
+div.sourceCode {
+  border: 1px solid rgba(255, 255, 255, 0.12);
 }
 hr {
   background-color: #1a1a1a;
