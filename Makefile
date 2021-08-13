@@ -22,15 +22,17 @@ all: $(HTML)
 
 %.html: %.md
 	@echo $@
-	@PAGETITLE=$$(sed '/^#/q' $< | sed 's/:[a-z]*://; s/#* //'); \
+	@DESCRIPTION=$$(sed '2,/^$$/!d' $< | tr '\n' ' '); \
+		PAGETITLE=$$(sed '/^#/q' $< | sed 's/:[a-z]*://; s/#* //'); \
 		sed "$(LINK_SEDSTRING) $(EMOJI_SEDSTRING)" $< \
-		| pandoc $(PANDOC_ARGS) -M pagetitle="$$PAGETITLE | $(TITLE)" > $@
+		| pandoc $(PANDOC_ARGS) -M pagetitle="$$PAGETITLE | $(TITLE)" -M description="$$DESCRIPTION" > $@
 
 index.html: index.md blog/preview.md
 	@echo $@
-	@sed "/Recent blog posts/r blog/preview.md" $< \
+	@DESCRIPTION=$$(sed '2,/^$$/!d' $< | tr '\n' ' '); \
+		sed "/Recent blog posts/r blog/preview.md" $< \
 		| sed "$(LINK_SEDSTRING) $(EMOJI_SEDSTRING)" \
-		| pandoc $(PANDOC_ARGS) -M pagetitle="$(TITLE)" > $@
+		| pandoc $(PANDOC_ARGS) -M pagetitle="$(TITLE)" -M description="$$DESCRIPTION"> $@
 
 blog/preview.md: blog/index.md
 	@echo $@
