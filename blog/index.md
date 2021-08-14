@@ -2,6 +2,10 @@
 
 ## 2021
 
+### August
+
+- [Using imagemagick :imagemagick: to crop soy faces](2021-08-14.md)
+
 ### July
 
 - [CircleCI :circleci: in daily life: how I improved Matrix stickerpicker](2021-07-15.md)
