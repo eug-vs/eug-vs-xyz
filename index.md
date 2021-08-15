@@ -1,8 +1,6 @@
 # About me
 I'm **Eugene** - software developer, enthusiast and a cool guy. Here I share information based on my experience in different topics. I'm interested in tech, math, privacy, linguistics, nutrition, health, psychology and philosophy.
 
-[Visit my blog!](./blog/index.md)
-
 # About this website
 This website runs on my local *Raspberry Pi* and features secure **HTTPS** connection! It's just a series of interlinked wiki-pages that I write in `Markdown`. Checkout more info on my [recent blog post](/blog/2021-07-02.md)!
 
