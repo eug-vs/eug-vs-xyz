@@ -19,10 +19,14 @@ No bullshit, ads, trackers or client-side JavaScript here.
  - Star my projects on GitHub :github: https://github.com/eug-vs
  - Follow me on Instagram :instagram: https://instagram.com/eug.vs
 
-# Support me with Monero :monero:
-<p align="center">
-<img src="public/monero-qr.png" alt="monero-qr" width="128">
-</p>
+# Support me
+## Brave rewards :brave:
+I accept tips via **Brave Rewards**. [Learn more](https://support.brave.com/hc/en-us/articles/360021123971-How-do-I-tip-websites-and-Content-Creators-in-Brave-Rewards-).
+
+## Monero :monero:
+My Monero donation address:
+
+![monero-qr](/public/monero-qr.png)
 
 `48WZbWqmbyuKhoFkbac4mNYSSFop5LqJz2PFsW1PMLgdYrGpvvZtTrwUgQs5Tgf5EXJWcgmp53TdxBnTapajAbMuLuGqBf2`
 
