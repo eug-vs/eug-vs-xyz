@@ -1,4 +1,6 @@
 #!/bin/sh
+# Return a large sed command that will substitute all :emoji: listed in /public/emoji with <img>
+
 SIZE=24px
 STYLE="margin-bottom: -4px;"
 

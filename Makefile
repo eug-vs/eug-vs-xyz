@@ -1,11 +1,10 @@
+TITLE=Eugene's Space
 RSYNC_DESTINATION=root@eug-vs.xyz:/var/www/website
-BROWSER=brave
 
 MARKDOWN=gfm+emoji
 STYLESHEET=/style.css
 HEAD=head.html
 HEADER=header.html
-TITLE=Eugene's Space
 PANDOC_ARGS=-s --from=$(MARKDOWN) --to=html -c $(STYLESHEET) -B $(HEADER) -H $(HEAD) --shift-heading-level-by=1 --highlight-style=gruvbox.theme
 
 LINK_SEDSTRING=s/.md)/.html)/g;
@@ -14,7 +13,7 @@ LOCALIZE_SEDSTRING=s|\"/|\"$(PWD)/|;
 UNLOCALIZE_SEDSTRING=s|$(PWD)||;
 
 
-SOURCES=$(wildcard *.md blog/*.md)
+SOURCES=$(wildcard *.md blog/*.md articles/*.md)
 HTML=$(patsubst %.md, %.html, $(SOURCES))
 
 
@@ -39,7 +38,7 @@ blog/preview.md: blog/index.md
 	@sed -n "s/^-/ -/; s|(|(blog/| ; /^ -/p" $< | head -n 4 > $@
 
 open: $(HTML)
-	$(BROWSER) index.html
+	xdg-open index.html
 
 deploy: $(HTML)
 	$(MAKE) unlocalize
