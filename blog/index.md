@@ -4,6 +4,7 @@
 
 ### August
 
+- [Python :python: in real life](2021-08-18.md)
 - [Using imagemagick :imagemagick: to crop soy faces](2021-08-14.md)
 
 ### July
