@@ -42,7 +42,7 @@ open: $(HTML)
 
 deploy: $(HTML)
 	$(MAKE) unlocalize
-	rsync -zarv --exclude=".git" --exclude="*.md" . $(RSYNC_DESTINATION)
+	rsync -rtvzP --exclude=".git" --exclude="*.md" . $(RSYNC_DESTINATION)
 
 localize: $(HTML)
 	@for file in $^; do sed -i "$(UNLOCALIZE_SEDSTRING) $(LOCALIZE_SEDSTRING)" $$file; done
