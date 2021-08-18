@@ -11,7 +11,7 @@ No bullshit, ads, trackers or client-side JavaScript here.
  - [See all...](./blog/index.md)
 
 # Articles :page_with_curl:
- - [TaskWarrior is all you need to be productive! :taskwarrior:](taskwarrior.md)
+ - [TaskWarrior is all you need to be productive! :taskwarrior:](./articles/taskwarrior.md)
 
 # Contacts :mailbox:
  - Contact me via email :email: eugene@eug-vs.xyz
