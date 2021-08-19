@@ -1,4 +1,4 @@
-# TaskWarrior is all you need to be productive
+# TaskWarrior :taskwarrior: is all you need to be productive
 
 Nowadays there is an **ocean** of different productivity tools, systems and methodologies. The secret is - you only need one!
 
