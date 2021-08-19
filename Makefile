@@ -5,7 +5,7 @@ MARKDOWN=gfm+emoji
 STYLESHEET=/style.css
 HEAD=head.html
 HEADER=header.html
-PANDOC_ARGS=-s --from=$(MARKDOWN) --to=html -c $(STYLESHEET) -B $(HEADER) -H $(HEAD) --shift-heading-level-by=1 --highlight-style=gruvbox.theme
+PANDOC_ARGS=-s --from=$(MARKDOWN) --to=html -c $(STYLESHEET) -B $(HEADER) -H $(HEAD) -M lang="en" --shift-heading-level-by=1 --highlight-style=gruvbox.theme
 
 LINK_SEDSTRING=s/.md)/.html)/g;
 EMOJI_SEDSTRING=$(shell ./compile_emoji_sedstring.sh)
