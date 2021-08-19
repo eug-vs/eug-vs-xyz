@@ -1,4 +1,4 @@
-# Eugene's Blog
+# Blog
 
 ## 2021
 

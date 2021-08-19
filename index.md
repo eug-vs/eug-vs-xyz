@@ -22,7 +22,7 @@ No bullshit, ads, trackers or client-side JavaScript here.
 
 # Support me
 ## :brave-bat: Brave rewards
-I accept tips via **Brave Rewards**. [Learn more](https://support.brave.com/hc/en-us/articles/360021123971-How-do-I-tip-websites-and-Content-Creators-in-Brave-Rewards-).
+I accept tips via **Brave Rewards**. [How to send a tip?](https://support.brave.com/hc/en-us/articles/360021123971-How-do-I-tip-websites-and-Content-Creators-in-Brave-Rewards-)
 
 ## :monero: Monero
 My Monero donation address:
