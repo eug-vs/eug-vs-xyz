@@ -2,6 +2,10 @@
 
 ## 2021
 
+### September
+
+- [Summer 2021 - retrospective](2021-09-10.md)
+
 ### August
 
 - [Python :python: in real life](2021-08-18.md)
