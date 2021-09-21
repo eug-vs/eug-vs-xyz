@@ -4,6 +4,7 @@
 
 ### September
 
+- [I'm back on Carnivore! :meat_on_bone:](2021-09-21.md)
 - [Summer 2021 - retrospective](2021-09-10.md)
 
 ### August
