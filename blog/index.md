@@ -2,6 +2,10 @@
 
 ## 2021
 
+### October
+
+- [You should start using `ssh-copy-id` now!](2021-10-06.md)
+
 ### September
 
 - [I'm back on Carnivore! :meat_on_bone:](2021-09-21.md)
