@@ -4,6 +4,7 @@
 
 ### October
 
+- [Pistol :gun: - yet another ASCII renderer](2021-10-28.md)
 - [Ray marching in Rust :rust: !](2021-10-27.md)
 - [You should start using `ssh-copy-id` now!](2021-10-06.md)
 
