@@ -1,9 +1,8 @@
 html {
-  line-height: 1.5;
-  font-family: Roboto, sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 20px;
-  color: #f4f4f4;
-  background-color: #1e1e1e;
+  color: #ebdbb2;
+  background-color: #282828;
 }
 body {
   margin: 0 auto;
@@ -27,13 +26,15 @@ p {
   margin: 1em 0;
 }
 a {
-  color: #ffa726;
+  color: #fabd2f;
   text-decoration: none;
+  font-weight: 550;
 }
 img {
   max-width: 100%;
 }
 h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
   margin-top: 1.4em;
 }
 h5, h6 {
@@ -62,7 +63,7 @@ code {
   font-size: 85%;
   margin: 0;
   padding: 4px;
-  background: #121212;
+  background: #1d2021;
   border-radius: 4px;
 }
 pre {
