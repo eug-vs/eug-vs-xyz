@@ -1,12 +1,11 @@
 html {
   font-family: "Open Sans", sans-serif;
-  font-size: 20px;
   color: #ebdbb2;
   background-color: #282828;
 }
 body {
   margin: 0 auto;
-  max-width: 36em;
+  max-width: 50em;
   padding-left: 50px;
   padding-right: 50px;
   padding-top: 50px;
@@ -18,7 +17,6 @@ body {
 }
 @media (max-width: 600px) {
   body {
-    font-size: 0.9em;
     padding: 1em;
   }
 }
@@ -62,7 +60,7 @@ code {
   font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
   font-size: 85%;
   margin: 0;
-  padding: 4px;
+  padding: 2px;
   background: #1d2021;
   border-radius: 4px;
 }
