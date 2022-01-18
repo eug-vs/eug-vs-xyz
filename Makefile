@@ -1,5 +1,5 @@
 TITLE=Eugene's Space
-RSYNC_DESTINATION=root@eug-vs.xyz:/var/www/website
+RSYNC_DESTINATION=eug-vs.xyz:/var/www/website
 
 MARKDOWN=gfm+emoji
 STYLESHEET=/style.css
