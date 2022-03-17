@@ -8,6 +8,11 @@ It's just a series of interlinked wiki-pages that I write in **Markdown** :markd
 
 No bullshit, ads, trackers or client-side JavaScript here.
 
+# My git server
+I gradually move to move own git server from [Github](github.com/eug-vs) :github: .
+
+Check out my projects here: https://git.eug-vs.xyz
+
 # Recent blog posts
  - [See all...](./blog/index.md)
 
