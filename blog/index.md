@@ -4,6 +4,7 @@
 
 ### March
 
+- [Agent-less infrastructure management with Ansible :ansible:](2022-03-26.md)
 - [Here comes my git server :fire:](2022-03-24.md)
 - [Жыве Беларусь! :belarus:](2022-03-17.md)
 
