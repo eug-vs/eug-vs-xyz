@@ -2,6 +2,10 @@
 
 ## 2022
 
+### April
+
+- [DWM - useless gaps are useless!](2022-04-02.md)
+
 ### March
 
 - [Agent-less infrastructure management with Ansible :ansible:](2022-03-26.md)
