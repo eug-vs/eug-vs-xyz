@@ -56,10 +56,10 @@ blockquote {
   font-style: italic;
 }
 code {
-  font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
-  font-size: 85%;
+  font-family: monospace;
+  font-size: 130%;
   margin: 0;
-  padding: 2px;
+  padding: 3px;
   background: #1d2021;
   border-radius: 4px;
 }
@@ -78,6 +78,9 @@ pre code {
 }
 div.sourceCode {
   border: 1px solid rgba(255, 255, 255, 0.12);
+}
+code.sourceCode {
+  padding: 0;
 }
 hr {
   background-color: #1a1a1a;
