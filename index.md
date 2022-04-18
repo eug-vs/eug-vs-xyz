@@ -1,15 +1,17 @@
 # About me
-I'm **Eugene** - software developer, enthusiast and a cool guy. Here I share information based on my experience in different topics. I'm interested in tech, math, privacy, linguistics, nutrition, health, psychology and philosophy.
+I'm **Eugene** - software developer, enthusiast, free spirit and a cool guy. Here I share information based on my experience in different topics. I'm interested in tech, math, privacy, linguistics, nutrition, health, psychology and philosophy.
 
 # About this website
-This website runs on my local [Raspberry Pi :raspberry-pi:](https://www.raspberrypi.org/) and features secure **HTTPS** connection!
+This website runs on my local [Raspberry Pi :raspberry-pi:](https://www.raspberrypi.org/) along with many other services.
 
-It's just a series of interlinked wiki-pages that I write in **Markdown** :markdown: . Checkout more info on my [blog post](/blog/2021-07-02.md)!
+It's nothing more than a series of interlinked wiki pages that I write in **Markdown** :markdown: when I'm too lazy to do something productive. Checkout more info on my [blog post](/blog/2021-07-02.md).
 
 No bullshit, ads, trackers or client-side JavaScript here.
 
-# My git server
-Check out my projects here: https://git.eug-vs.xyz
+# My projects
+I enjoy writing software, from fullstack web applications to 3D renderers in low-level languages. I'm also building my home [infrastructure](https://git.eug-vs.xyz/eug-vs/infrastructure/).
+
+You can find my projects on my [:git: git server](https://git.eug-vs.xyz).
 
 # Recent blog posts
  - [See all...](./blog/index.md)
