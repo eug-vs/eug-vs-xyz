@@ -4,6 +4,7 @@
 
 ### April
 
+- [Patching Gentoo :gentoo: packages in the wild](2022-04-18.md)
 - [Running Gentoo :gentoo: on multiple workstations](2022-04-17.md)
 - [DWM - useless gaps are useless!](2022-04-02.md)
 
