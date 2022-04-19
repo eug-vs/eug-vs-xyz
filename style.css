@@ -5,7 +5,7 @@ html {
 }
 body {
   margin: 0 auto;
-  max-width: 50em;
+  max-width: 1100px;
   padding-left: 50px;
   padding-right: 50px;
   padding-top: 50px;
@@ -13,6 +13,7 @@ body {
   word-wrap: break-word;
   text-rendering: optimizeLegibility;
   font-kerning: normal;
+  font-size: 16px;
 }
 @media (max-width: 600px) {
   body {
@@ -30,16 +31,20 @@ a {
 img {
   max-width: 100%;
 }
-h1, h2, h3, h4, h5, h6 {
+h1 {
   font-weight: normal;
+}
+h2, h3, h4, h5, h6 {
+  font-family: "Bitter", serif;
+  font-weight: normal;
+  line-height: 1.1;
   margin-top: 1.4em;
 }
-h5, h6 {
-  font-size: 1em;
-  font-style: italic;
+h2 {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.12);
 }
-h6 {
-  font-weight: normal;
+h3 {
+  font-size: 21px;
 }
 ol, ul {
   padding-left: 1.7em;
@@ -57,7 +62,7 @@ blockquote {
 }
 code {
   font-family: monospace;
-  font-size: 130%;
+  font-size: 90%;
   margin: 0;
   padding: 2px;
   background: #1d2021;
