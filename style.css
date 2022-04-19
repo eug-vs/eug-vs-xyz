@@ -1,3 +1,7 @@
+@font-face {
+  font-family: "Bitter";
+  src: url(/public/fonts/Bitter-Regular.woff) format("truetype");
+}
 html {
   font-family: "Open Sans", sans-serif;
   color: #ebdbb2;
