@@ -36,7 +36,7 @@ all: $(HTML) $(RSS_FEED)
 	@echo $@
 	@echo '<item>' > $@
 	@echo "  <link>https://eug-vs.xyz/$*.html</link>" >> $@
-	@echo "  <pubDate>$*</pubDate>" >> $@
+	@echo "  <pubDate>$$(date --rfc-email -d $$(basename $*))</pubDate>" >> $@
 	@echo "  <title>$$(sed '/^#/q' $< | sed 's/:[a-z]*://; s/#* //')</title>" >> $@
 	@echo "  <description><![CDATA[" >> $@
 	@sed "$(LINK_SEDSTRING) $(EMOJI_SEDSTRING)" $< | pandoc $(PANDOC_ARGS) $< >> $@
@@ -47,6 +47,7 @@ $(RSS_FEED): $(XML)
 	@echo $@
 	@echo '<rss version="2.0"><channel>' > $@
 	@echo "<title>Eugene's Space</title><link>https://eug-vs.xyz</link><description>Eugene's blog</description>" >> $@
+	@echo "<lastBuildDate>$$(date --rfc-email)</lastBuildDate>" >> $@
 	@cat $$(echo $^ | tr " " "\n" | sort -r | tr "\n" " ") >> $@
 	@echo '</channel></rss>' >> $@
 
