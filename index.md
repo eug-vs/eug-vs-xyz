@@ -8,6 +8,8 @@ It's nothing more than a series of interlinked wiki pages that I write in **Mark
 
 No bullshit, ads, trackers or client-side JavaScript here.
 
+Subscribe to my [:rss: RSS feed](https://eug-vs.xyz/blog/index.xml).
+
 # My projects
 I enjoy writing software, from fullstack web applications to 3D renderers in low-level languages. I'm also building my home [infrastructure](https://git.eug-vs.xyz/eug-vs/infrastructure/).
 

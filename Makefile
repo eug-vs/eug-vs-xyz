@@ -78,6 +78,10 @@ localize: $(HTML)
 unlocalize: $(HTML)
 	@for file in $^; do sed -i "$(UNLOCALIZE_SEDSTRING)" $$file; done
 
+update_openring:
+	rm -rf $(OPENRING_FOOTER)
+	$(MAKE) $(OPENRING_FOOTER)
+
 clean:
-	rm -f $(HTML) $(XML) $(OPENRING_FOOTER) $(RSS_FEED) blog/preview.md
+	rm -f $(HTML) $(XML) $(RSS_FEED) blog/preview.md
 
