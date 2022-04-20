@@ -13,7 +13,7 @@ EMOJI_SEDSTRING=$(shell ./compile_emoji_sedstring.sh)
 LOCALIZE_SEDSTRING=s|\"/|\"$(PWD)/|;
 UNLOCALIZE_SEDSTRING=s|$(PWD)||;
 
-OPENRING_FEED="https://drewdevault.com/feed.xml"
+OPENRING_ARGS=$(shell ./compile_openring_args.sh)
 
 
 SOURCES=$(wildcard *.md blog/*.md articles/*.md)
@@ -37,7 +37,7 @@ index.html: index.md blog/preview.md
 		| pandoc $(PANDOC_ARGS) -M pagetitle="$(TITLE)" -M description="$$DESCRIPTION"> $@
 
 $(OPENRING_FOOTER): openring-template.html
-	openring -s $(OPENRING_FEED) < $< > $@
+	openring $(OPENRING_ARGS) < $< > $@
 
 blog/preview.md: blog/index.md
 	@echo $@
