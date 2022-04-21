@@ -1,3 +1,2 @@
-*.html
-*.xml
-blog/preview.md
+out
+tmp
