@@ -2,6 +2,11 @@
 
 ## 2022
 
+### September
+
+- [Plaintext accounting :hledger: is cool](2022-09-30.md)
+- [Branching sucks. Trunk-based development :git: will boost your project!](2022-09-26.md)
+
 ### April
 
 - [Creating Gentoo :gentoo: ebuilds is easy as fuck!](2022-04-24.md)
