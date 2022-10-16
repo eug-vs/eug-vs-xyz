@@ -15,6 +15,8 @@ I enjoy writing software, from fullstack web applications to 3D renderers in low
 
 You can find my projects on my [:git: git server](https://git.eug-vs.xyz).
 
+I'm an CTO of the web-marketplace startup called :barter: Barter: https://barter-eco.com
+
 # Recent blog posts
  - [See all...](./blog/index.md)
 
@@ -26,6 +28,7 @@ You can find my projects on my [:git: git server](https://git.eug-vs.xyz).
  - :telegram: [Telegram](https://t.me/eug_vs)
  - :github: [GitHub](https://github.com/eug-vs)
  - :instagram:  [Instagram](https://instagram.com/eug.vs)
+ - :linkedin:  [LinkedIn](https://www.linkedin.com/in/eugene-sokolov-98749b19a/)
 
 # Support me
 ## :brave-bat: Brave rewards
