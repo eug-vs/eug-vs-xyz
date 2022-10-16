@@ -2,6 +2,10 @@
 
 ## 2022
 
+### October
+
+- [Tell your designer that you use Tailwind :tailwind:](2022-10-16.md)
+
 ### September
 
 - [Plaintext accounting :hledger: is cool](2022-09-30.md)
