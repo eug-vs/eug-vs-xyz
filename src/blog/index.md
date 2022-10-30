@@ -4,6 +4,7 @@
 
 ### October
 
+- [Multi-user setup is finally figured](2022-10-30.md)
 - [Tell your designer that you use Tailwind :tailwind:](2022-10-16.md)
 
 ### September
