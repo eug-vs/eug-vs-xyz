@@ -2,6 +2,10 @@
 
 ## 2022
 
+### December
+
+- [Improving my password management with pass](2022-12-05.md)
+
 ### October
 
 - [Multi-user setup is finally figured](2022-10-30.md)
