@@ -4,6 +4,7 @@
 
 ### December
 
+- [Barter is now live! :barter:](2022-12-23.md)
 - [Improving my password management with pass](2022-12-05.md)
 
 ### October
